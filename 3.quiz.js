@@ -1,4 +1,4 @@
-let num = 2;
+let num = 3;
 //num 짝수 "!" 홀수 "?"
 
 //if
@@ -6,10 +6,13 @@ let num = 2;
 //ternary
 
 
-if (num % 2 == 0) {
+if (num % 2 === 0) {
     console.log("!")
 } else {
     console.log("?")
 }
 
-num % 2 == 0 ? console.log("!") : console.log("?")
+num % 2 === 0 ? console.log("!") : console.log("?");
+
+let emoji = num % 2 === 0 ? '!' : '?';
+console.log(emoji);
