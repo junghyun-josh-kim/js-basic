@@ -1,5 +1,11 @@
-let b; // 선언문
-b = 2; // 표현식, 할당문
+// 단항연산자 Unary Operators
+// + (양)
+// - (음)
+// ! (부정)
+let a = 5;
+a = -a; // -1 * 5
+console.log(a);
+a = -a;
+console.log(a);
 
-let a = (b = 2);
-console.log(a);asdasdasdasd
+a = +a;
